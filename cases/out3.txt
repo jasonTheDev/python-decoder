@@ -1,0 +1,7 @@
+RESULTS
+FileDecoder: FileDecoder(key='Z.9_5TC', file='cases/ferry3.out')
+Entries: 2098
+    Average delay for Apr: 4.39
+    Average delay for Jun: 4.43
+    Average delay for Sep: 4.52
+END

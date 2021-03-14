@@ -1,0 +1,5 @@
+RESULTS
+FileDecoder: FileDecoder(key='A00!$a', file='cases/ferry1.out')
+Entries: 498
+    Average delay for Feb: 3.71
+END

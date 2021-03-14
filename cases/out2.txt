@@ -1,0 +1,12 @@
+RESULTS
+FileDecoder: FileDecoder(key='a1-V2$c3', file='cases/ferry2.out')
+Entries: 5738
+    Average delay for Feb: 3.71
+    Average delay for Mar: 4.61
+    Average delay for Apr: 4.39
+    Average delay for May: 4.83
+    Average delay for Jun: 4.43
+    Average delay for Jul: 5.33
+    Average delay for Aug: 9.13
+    Average delay for Sep: 4.52
+END
