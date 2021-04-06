@@ -1,9 +1,6 @@
 """
-In this file, you need to add your FileDecoder class
-See a4 PDF for details
-
-WE WILL EVALUATE YOUR CLASS INDIVIDUAL, SO MAKE SURE YOU READ
-THE SPECIFICATIONS CAREFULLY.
+Iterative class for decodeing a csv file encoded using a
+shift cipher and key
 """
 
 import string
@@ -61,12 +58,10 @@ class FileDecoder:
 			i += 1
 
 		# check for proper decription
-		# assuming all files provided with have at least a header and data row
 		if len(self.decoded) < 2:
 			raise DecryptException
 
 		number_of_columns = len(self.decoded[0])
-		# techically possible, but unproperly decrypted files sneak through otherwise
 		if number_of_columns <= 1:
 			raise DecryptException
 
