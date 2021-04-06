@@ -84,7 +84,7 @@ def is_valid_key(key):
 
 		capital = r"[A-Z]"
 		digit = r"\d"
-		special = r"[!@#$&*_.-]"	# could use string.punctuation if you wanted to include all special characters
+		special = r"[!@#$&*_.-]"
 		length = r"^\S{6,8}$"
 
 		# key contains at least 1 capital letter
@@ -112,8 +112,6 @@ def is_valid_key(key):
 
 ##########################################################################
 ####### The following functions are used to write output to a file #######
-##########################################################################
-############################ Bonus marks? ;) #############################
 ##########################################################################
 
 # this is used for writing output to a file (ex. out1.txt)
